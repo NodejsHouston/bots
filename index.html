@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+  <link rel="shortcut icon" href="static/img/favicon.png">
+  <title>Nodebots Day - Houston</title>
+</head>
+
+<body>
+  <div class="top-level-e78c6">
+    <header class="skyline">
+      <h1 class="title-ab1a5">Nodebots Day Houston</h1>
+    </header>
+    <div class="flex-container-e0310">
+      <div class="menu-319e7">
+        <h3 class="child-10a38"><a href="#agenda" class="nav-link-3a22b">Agenda</a></h3>
+        <h3 class="child-10a38"><a href="#tickets" class="nav-link-3a22b">Tickets</a></h3>
+        <h3 class="child-10a38"><a href="#sponsors" class="nav-link-3a22b">Sponsors</a></h3>
+        <h3 class="child-10a38"><a href="#faqs" class="nav-link-3a22b">FAQs</a></h3>
+      </div>
+    </div>
+    <div class="container-3b44f">
+      <blockquote class="description-6465e">
+        International Nodebots Day is an annual event where JavaScript
+        programmers come together hack on, or learn to hack on, hardware.
+      </blockquote>
+      <p>Nullam eu ante vel est convallis dignissim. Fusce suscipit, wisi nec
+      facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis
+      odio. Nunc porta vulputate tellus. Nunc rutrum turpis sed pede. Sed
+      bibendum. Aliquam posuere. Nunc aliquet, augue nec adipiscing interdum,
+      lacus tellus malesuada massa, quis varius mi purus non odio. Pellentesque
+      condimentum, magna ut suscipit hendrerit, ipsum augue ornare nulla, non
+      luctus diam neque sit amet urna. Curabitur vulputate vestibulum
+      lorem. Fusce sagittis, libero non molestie mollis, magna orci ultrices
+      dolor, at vulputate neque nulla lacinia eros. Sed id ligula quis est
+      convallis tempor. Curabitur lacinia pulvinar nibh. Nam a sapien.
+      </p>
+      <h2 id="agenda" class="subheading-ea9d3">Agenda</h2>
+      <p>Aliquam erat volutpat. Nunc eleifend leo vitae magna. In id erat non
+      orci commodo lobortis. Proin neque massa, cursus ut, gravida ut, lobortis
+      eget, lacus.
+      </p>
+      <h2 id="tickets" class="subheading-ea9d3">Tickets</h2>
+      <p>Nullam eu ante vel est convallis dignissim. Fusce suscipit, wisi nec
+      facilisis facilisis, est dui fermentum leo, quis tempor ligula erat quis
+      odio. Nunc porta vulputate tellus. Nunc rutrum turpis sed pede. Sed
+      bibendum. Aliquam posuere. Nunc aliquet, augue nec adipiscing interdum,
+      lacus tellus malesuada massa, quis varius mi purus non odio.
+      </p>
+      <h2 id="sponsors" class="subheading-ea9d3">Sponsors</h2>
+      <div class="sponsor-holder">
+        <span class="placeholder-1"></span>
+        <span class="placeholder-2"></span>
+        <span class="placeholder-3"></span>
+      </div>
+      <h2 id="faqs" class="subheading-ea9d3">FAQs</h2>
+      <ul>
+        <li>Mauris ac felis vel velit tristique imperdiet?</li>
+        <p>Etiam vel tortor sodales tellus ultricies commodo. Phasellus neque
+        orci, porta a, aliquet quis, semper a, massa. Praesent fermentum tempor
+        tellus. </p>
+        <li>Donec posuere augue in quamsed diam phasellus neque orci, porta a,
+        aliquet quis, semper a, massa?</li>
+        <p>Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada
+        massa, quis varius mi purus non odio. Pellentesque condimentum, magna
+        ut suscipit hendrerit, ipsum augue ornare nulla, non luctus diam neque
+        sit amet urna.</p>
+        <li>Phasellus lacus nullam rutrum?</li>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. </p>
+      </ul>
+      <div class="bot-container-c8b56">
+        <img class="bot-f6126" alt="nodebot icon" src="static/img/small-bot.png" />
+      </div>
+    </div>
+    <div class="bottom-d0830">
+      <div class="attribution-10e0b">Image: Houston skyline courtesy of 
+        <a href="https://www.flickr.com/photos/uffdah777/8472664412/" class="flick-link-429d6">Randall Pugh (CC BY-NC 2.0)</a>
+      </div>
+    </div>
+  </div>
+</body>
+<script type="text/javascript">
+  function placeholder(canvasTarget, width, height, bgColor, textColor) {
+    var text = width + "x" + height;
+    var canvas = document.createElement('canvas');
+    canvas.width = width;
+    canvas.height = height;
+
+    var context = canvas.getContext('2d');
+    context.font = (width >= 250) ? "50px Arial" : "25px Arial";
+
+    context.fillStyle = bgColor;
+    context.fillRect(0, 0, width, height);
+    context.fill();
+
+    var textWidth = context.measureText(text).width;
+    context.fillStyle = textColor || "grey";
+    context.textBaseline = 'middle';
+    context.fillText(text, width / 2 - textWidth / 2, height / 2);
+
+    document.querySelector(canvasTarget).appendChild(canvas);
+  }
+
+  placeholder('.placeholder-1', 250, 250, "#d8d8d8");
+  placeholder('.placeholder-2', 250, 250, "#a7a7a7", "#424242");
+  placeholder('.placeholder-3', 250, 250, "#d8d8d8");
+</script>
+</html>

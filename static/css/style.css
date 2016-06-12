@@ -1,0 +1,128 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    margin: 0
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    font-family: sans-serif;
+    color: #2E2E2C;
+}
+
+.top-level-e78c6 {
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container-e0310 {
+    min-width: 100%;
+    background-color: #F7DF1E;
+    flex: auto;
+}
+
+.menu-319e7 {
+    flex: auto;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 55em;
+}
+
+.child-10a38 {
+    margin: 0;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    padding: 30px 20px;
+    flex: auto;
+    text-align: center;
+}
+
+.container-3b44f {
+    max-width: 55em;
+    margin: auto;
+    padding: 0.5em 1em;
+    line-height: 1.5em;
+}
+
+.nav-link-3a22b {
+    color: inherit;
+}
+
+.skyline {
+    background-image: url("../img/skyline.jpg");
+    background-size: cover;
+    background-position: center 43%;
+    text-align: center;
+}
+
+.title-ab1a5 {
+    max-width: 100%;
+    font-size: 4em;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    padding: 0.5em 0.5em;
+    margin: 1.5em 0;
+}
+
+.description-6465e {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.subheading-ea9d3 {
+    letter-spacing: 0.2em;
+    font-weight: 300;
+}
+
+.sponsor-holder {
+    text-align: center;
+}
+
+.bot-container-c8b56 {
+    width: 100%;
+    text-align: center;
+    margin: 2em 0;
+}
+
+.bot-f6126 {
+    max-width: 200px;
+}
+
+.bottom-d0830 {
+    color: #f8f8f8;
+    background-color: #2E2E2C;
+    padding: 1.5em 0;
+}
+
+.attribution-10e0b {
+    max-width: 55rem;
+    margin: auto;
+    font-size: small;
+    padding: 0 10px;
+}
+
+.flick-link-429d6, .flick-link-429d6:visited {
+    color: #f8f8f8;
+}
+
+@media (max-width: 500px) {
+    .menu-319e7 {
+        flex-flow: column;
+    }
+    .child-10a38 {
+        padding: 10px 20px;   
+    }
+    .title-ab1a5 {
+        font-size: 2.5em;
+    }
+}

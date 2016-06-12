@@ -56,17 +56,17 @@
       </div>
       <h2 id="faqs" class="subheading-ea9d3">FAQs</h2>
       <ul>
-        <li>Mauris ac felis vel velit tristique imperdiet?</li>
+        <li class="question-ee671">Mauris ac felis vel velit tristique imperdiet?</li>
         <p>Etiam vel tortor sodales tellus ultricies commodo. Phasellus neque
         orci, porta a, aliquet quis, semper a, massa. Praesent fermentum tempor
         tellus. </p>
-        <li>Donec posuere augue in quamsed diam phasellus neque orci, porta a,
+        <li class="question-ee671">Donec posuere augue in quamsed diam phasellus neque orci, porta a,
         aliquet quis, semper a, massa?</li>
         <p>Nunc aliquet, augue nec adipiscing interdum, lacus tellus malesuada
         massa, quis varius mi purus non odio. Pellentesque condimentum, magna
         ut suscipit hendrerit, ipsum augue ornare nulla, non luctus diam neque
         sit amet urna.</p>
-        <li>Phasellus lacus nullam rutrum?</li>
+        <li class="question-ee671">Phasellus lacus nullam rutrum?</li>
         <p>Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. </p>
       </ul>
@@ -84,13 +84,20 @@
 <script type="text/javascript">
   function placeholder(canvasTarget, width, height, bgColor, textColor) {
     var text = width + "x" + height;
+    var ratio = window.devicePixelRatio || 1;
     var canvas = document.createElement('canvas');
     canvas.width = width;
     canvas.height = height;
 
     var context = canvas.getContext('2d');
-    context.font = (width >= 250) ? "50px Arial" : "25px Arial";
 
+    canvas.style.width = canvas.width + "px";
+    canvas.style.height = canvas.height + "px";
+    canvas.width *= ratio;
+    canvas.height *= ratio;
+
+    context.font = (width >= 250) ? "50px Arial" : "25px Arial";
+    context.scale(ratio, ratio);
     context.fillStyle = bgColor;
     context.fillRect(0, 0, width, height);
     context.fill();

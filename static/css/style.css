@@ -72,6 +72,7 @@ body {
     display: inline-block;
     padding: 0.5em 0.5em;
     margin: 1.5em 0;
+    font-weight: 500;
 }
 
 .description-6465e {
@@ -81,7 +82,7 @@ body {
 
 .subheading-ea9d3 {
     letter-spacing: 0.2em;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .sponsor-holder {
@@ -90,6 +91,11 @@ body {
 
 .question-ee671 {
     list-style-type: square;
+}
+
+.cost-3a2f9 {
+    text-align: right;
+    font-weight: bold;
 }
 
 .bot-container-c8b56 {

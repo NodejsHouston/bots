@@ -84,7 +84,8 @@ body {
 
 .date-7a1a6 {
     margin: 0 0;
-    padding-top: 1em;
+    padding-top: .5em;
+    padding-bottom: .1em;
     font-size: 2em;
     font-weight: 500;
 }

@@ -122,7 +122,7 @@ body {
 }
 
 .logo-83f86 {
-    max-width: 290px;
+    max-width: 350px;
     
 }
 
@@ -143,6 +143,10 @@ body {
 .cost-3a2f9 {
     text-align: right;
     font-weight: bold;
+}
+
+.purchase-c35ee {
+    letter-spacing: 0.1em;
 }
 
 .bot-container-c8b56 {

@@ -90,8 +90,13 @@ body {
     overflow: scroll;
 }
 
+.agenda-ef9dd {
+    min-width: 100%;
+}
+
 .agenda-ef9dd td {
     padding: 8px 10px;
+    text-align: center;
 }
 
 .one-e0080 { background-color: #FDF9D2; }

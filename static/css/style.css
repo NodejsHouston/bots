@@ -54,7 +54,7 @@ body {
     line-height: 1.5em;
 }
 
-.nav-link-3a22b {
+.link-3a22b {
     color: inherit;
 }
 
@@ -83,6 +83,21 @@ body {
 .subheading-ea9d3 {
     letter-spacing: 0.2em;
     font-weight: 400;
+    margin: 1.5em 0;
+}
+
+.track-e5f72 {
+    font-weight: 400;
+}
+
+.img-container-61e85 {
+    max-width: 100%;
+    margin: 1em 0;
+}
+
+.logo-83f86 {
+    max-width: 290px;
+    
 }
 
 .sponsor-holder {
@@ -90,7 +105,13 @@ body {
 }
 
 .question-ee671 {
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.square-8782f {
     list-style-type: square;
+    margin: 1em 0;
 }
 
 .cost-3a2f9 {

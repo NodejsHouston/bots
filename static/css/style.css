@@ -106,7 +106,7 @@ body {
 }
 
 .table-container-f85c9 {
-    overflow: scroll;
+    overflow: auto;
 }
 
 .agenda-ef9dd {
@@ -196,7 +196,20 @@ body {
     color: #f8f8f8;
 }
 
-.tito-ticket-description { display:none; }
+.scrollbar-hack-abe84 {
+    overflow: hidden;
+}
+
+.tito-ticket-name {
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.tito-ticket-description {
+    color: #2E2E2C;
+    font-size: 0.9em;
+}
 
 @media (max-width: 500px) {
     .container-3b44f {

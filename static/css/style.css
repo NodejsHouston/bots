@@ -94,11 +94,6 @@ body {
     font-weight: 500;
 }
 
-.description-6465e {
-    font-size: 1.3em;
-    line-height: 1.5em;
-}
-
 .subheading-ea9d3 {
     letter-spacing: 0.2em;
     font-weight: 400;
@@ -146,13 +141,6 @@ body {
     max-width: 550px;
 }
 
-.inline-a7049 {
-    display: inline-block;
-    max-width: unset;
-    margin-left: 2em;
-    margin-right: 2em;
-}
-
 .be-bfa02 {
     max-height: 250px;
     max-width: unset;
@@ -165,6 +153,10 @@ body {
 .uh-87fe1 {
     width: 50%;
     display: inline-block;
+}
+
+.sf-6cdaa {
+    max-width: 350px;
 }
 
 .align-252e6 {
@@ -186,15 +178,6 @@ body {
 .square-8782f {
     list-style-type: square;
     margin: 1em 0;
-}
-
-.cost-3a2f9 {
-    text-align: right;
-    font-weight: bold;
-}
-
-.purchase-c35ee {
-    letter-spacing: 0.1em;
 }
 
 .bot-container-c8b56 {
@@ -256,7 +239,7 @@ body {
         height: 300px;
     }
     .logo-83f86 {
-        max-width: 100%;
+        max-height: 200px;
     }
     .uh-87fe1 {
         width: 100%;

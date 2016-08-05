@@ -82,10 +82,6 @@ body {
     font-weight: 500;
 }
 
-.map-f743d {
-    max-width: 100%;
-}
-
 .date-7a1a6 {
     margin: 0 0;
     padding-top: .5em;
@@ -211,15 +207,12 @@ body {
     overflow: hidden;
 }
 
-.tito-ticket-name {
-    font-size: 1em;
-    font-weight: 600;
-    letter-spacing: 0.05em;
+.full-width-a23ee {
+    max-width: 100%;
 }
 
-.tito-ticket-description {
-    color: #2E2E2C;
-    font-size: 0.9em;
+.center-aee4d {
+    text-align: center;
 }
 
 @media (max-width: 500px) {
@@ -235,9 +228,6 @@ body {
     .title-ab1a5 {
         font-size: 2.5em;
     }
-    .map-f743d {
-        height: 300px;
-    }
     .logo-83f86 {
         max-width: 100%;
     }
@@ -247,18 +237,4 @@ body {
     .align-252e6 {
         flex-flow: column;
     }
-}
-
-.google-maps {
-    position: relative;
-    padding-bottom: 75%; // This is the aspect ratio
-    height: 0;
-    overflow: hidden;
-}
-.google-maps iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
 }

@@ -130,7 +130,7 @@ body {
 
 .img-container-61e85 {
     max-width: 100%;
-    margin: 1.5em 0;
+    margin: 100px 0;
 }
 
 .logo-83f86 {
@@ -163,6 +163,7 @@ body {
 }
 
 .sponsor-holder {
+    margin: 3em 0 1em 0;
     text-align: center;
 }
 

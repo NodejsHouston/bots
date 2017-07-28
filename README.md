@@ -18,3 +18,4 @@ University of Houston Classroom and Business Building
 ## Get Involved
 
 Also, to stay up-to-date on all NodeJS Houston related news and the community you should definitely [chat with us on Slack](http://chat.nodejshouston.com), [follow us on Twitter](https://twitter.com/nodejshouston), and check out website at [NodeJS Houston](http://www.nodejshouston.com).
+
